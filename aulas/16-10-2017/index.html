@@ -8,12 +8,13 @@
         <link rel="stylesheet" href="./css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet"> 
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+        <script src="./js/graphs.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
     </head>
     <body>
         <header> 
             <div class = "menu pura-menu pure-menu-horizontal">
                 <ul class = "pure-menu-list">
-                    <li class="pure-menu-item"><a href="graph.html" class="pure-menu-link">Ver gráficos feitos na aula</a></li>
                     <li class="pure-menu-item"><a href="https://github.com/M3nin0/economicoDesign" class="pure-menu-link">Mais aulas</a></li>
                     <li class="pure-menu-item"><a href="#" class ="pure-menu-link">Sobre</a></li>
                 </ul>
@@ -31,13 +32,20 @@
                 <li><h5>Unitário: </h5> Considerado um caso especial, por ser previsto, mas não ter aplicação prática conhecida. Neste caso uma variação relativa dos preços deveria provocar uma variação relativa das quantidades (exatamente) na mesma intensidade
                 <br>
                 Unitário => α P / α q = /1/
+                <br><br>
+                <input type="submit" class="" value="Ver gráfico" 
+                onclick="line('cvt1', 'EP - Unitário' ,[100,50, 45, 30, 10], ['n', 'Qd1', 'n', 'Qd0', 'n']);">
                 </li>
-                <br>
+                <canvas id = "cvt1" class="line-chart"></canvas>
                 <li>
                     <h5>Elástico: </h5> Considerado um caso usual, caracteristico de produtos e serviços não-essenciais. Neste caso uma variação relativa dos preços provoca uma variação relativa nas quantidades em maior intensidade<br>
                     <br>
                     Elástico => α P / α q < /1/
+                    <br><br>
+                    <input type="submit" class="" value="Ver gráfico" 
+                    onclick="line('cvt2', 'EP - Unitário' ,[60, 50, 40, 30, 20], ['n', 'Qd1', 'n', 'Qd0', 'n']);">
                 </li>
+                <canvas id = "cvt2" class="line-chart"></canvas>
                 <br>
                 <li>
                     <h5>Inelástico: </h5>Considerado um caso usual, caracteristico de produtos e serviços considerados essenciais. Neste caso uma variação realtiva dos preços provoca uma variação relativa nas quantidade em menor intensidade<br>
