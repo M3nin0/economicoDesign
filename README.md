@@ -4,7 +4,7 @@ Para fixar e salvar as aulas de economia e finâncias decidi criar este reporit�
 
 Toda ajuda é bem-vinda aqui.
 
-As técnilogias utilizadas aqui são:
+As tecnologias utilizadas aqui são:
 * C3.js;
 * Jupyter-notebook;
 * iplotter
