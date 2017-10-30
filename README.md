@@ -1,8 +1,11 @@
-# Economia e finanças com Design
+# Economia e finanças com Cor
 
-Para fixar as matérias de economia e finanças e ao mesmo tempo ir criando e usando HTML, CSS e JS, decidi criar páginas para cada uma das aulas, isso irá me fazer buscar tecnologias para aprender e melhorar os documentos.
+Para fixar e salvar as aulas de economia e finâncias decidi criar este reporitório. Com este repositório tenho o objetivo de aprender um pouco sobre JavaScript para a criação de gráficos.
 
 
-Esperado ajuda =D
+As técnilogias utilizadas aqui são:
+* C3.js;
+* Jupyter-notebook;
+* iplotter
 
-OBS: Se estiver muito feio me avisa, porque não sei nada sobre design, ou teoria de cores.
+Esperado também conseguir ajuda os que estão fazendo esta matéria =D
