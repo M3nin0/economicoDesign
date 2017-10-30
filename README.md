@@ -2,6 +2,7 @@
 
 Para fixar e salvar as aulas de economia e finâncias decidi criar este reporitório. Com este repositório tenho o objetivo de aprender um pouco sobre JavaScript para a criação de gráficos.
 
+Toda ajuda é bem-vinda aqui.
 
 As técnilogias utilizadas aqui são:
 * C3.js;
